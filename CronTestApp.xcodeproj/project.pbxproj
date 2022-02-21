@@ -73,15 +73,11 @@
 		5FC547AD27C41180005A3570 /* CronTestApp */ = {
 			isa = PBXGroup;
 			children = (
-				5FC547CF27C41493005A3570 /* Networking */,
-				5FC547C727C412B2005A3570 /* Application */,
-				5FC547C627C412A6005A3570 /* Cells */,
-				5FC547B227C41180005A3570 /* MainViewController.swift */,
-				5FC547C227C41248005A3570 /* PersonInfoViewController.swift */,
-				5FC547B727C41182005A3570 /* Assets.xcassets */,
-				5FC547B927C41182005A3570 /* LaunchScreen.storyboard */,
-				5FC547BC27C41182005A3570 /* Info.plist */,
+				5FC547D427C41A8A005A3570 /* Views */,
+				5FC547CF27C41493005A3570 /* Models */,
 				5FC547CC27C41434005A3570 /* Extensions */,
+				5FC547C727C412B2005A3570 /* Application */,
+				5FC547D527C41AAC005A3570 /* Resources */,
 			);
 			path = CronTestApp;
 			sourceTree = "<group>";
@@ -111,14 +107,34 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		5FC547CF27C41493005A3570 /* Networking */ = {
+		5FC547CF27C41493005A3570 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				5FC547CD27C41488005A3570 /* Displayable.swift */,
 				5FC547D027C4149F005A3570 /* Persons.swift */,
 				5FC547D227C414A8005A3570 /* Person.swift */,
 			);
-			path = Networking;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5FC547D427C41A8A005A3570 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5FC547C627C412A6005A3570 /* Cells */,
+				5FC547B227C41180005A3570 /* MainViewController.swift */,
+				5FC547C227C41248005A3570 /* PersonInfoViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5FC547D527C41AAC005A3570 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5FC547B727C41182005A3570 /* Assets.xcassets */,
+				5FC547B927C41182005A3570 /* LaunchScreen.storyboard */,
+				5FC547BC27C41182005A3570 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		6B2EC74532BFADF20C44F34E /* Pods */ = {
@@ -404,7 +420,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BVY3Y34K3N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CronTestApp/Info.plist;
+				INFOPLIST_FILE = CronTestApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -432,7 +448,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BVY3Y34K3N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CronTestApp/Info.plist;
+				INFOPLIST_FILE = CronTestApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
