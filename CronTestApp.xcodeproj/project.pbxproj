@@ -73,6 +73,7 @@
 		5FC547AD27C41180005A3570 /* CronTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				5FC547CF27C41493005A3570 /* Networking */,
 				5FC547C727C412B2005A3570 /* Application */,
 				5FC547C627C412A6005A3570 /* Cells */,
 				5FC547B227C41180005A3570 /* MainViewController.swift */,
@@ -81,7 +82,6 @@
 				5FC547B927C41182005A3570 /* LaunchScreen.storyboard */,
 				5FC547BC27C41182005A3570 /* Info.plist */,
 				5FC547CC27C41434005A3570 /* Extensions */,
-				5FC547CF27C41493005A3570 /* Networking */,
 			);
 			path = CronTestApp;
 			sourceTree = "<group>";
